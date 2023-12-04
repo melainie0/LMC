@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Mono&display=swap');
+body {
+	margin: 0;
+	font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: rgba(40, 42, 44, 0.927);
+	color: rgb(242, 244, 247);
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+	padding: 2px 1px 0;
+}
+
+a:link {
+	color: #005ab4;
+}
+
+a:visited {
+	color: #eca201;
+}
+
+a:focus {
+	border-bottom: 1px solid;
+}
+
+a:hover {
+	border-bottom: 1px solid;
+}

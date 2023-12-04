@@ -1,0 +1,156 @@
+:root {
+	--bg-box: rgba(40, 42, 44, 0.927);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.App {
+	text-align: center;
+}
+
+.title {
+	font-weight: 700;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+}
+
+.monitor {
+	margin-left: 2vw;
+}
+
+label {
+	margin-right: .4em;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 1rem;
+	gap: .5rem;
+}
+
+button {
+    display: inline-block;
+    border: none;
+	border-radius: .5rem;
+    padding: .2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #141414;
+    color: #f3ecec;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: #0053ba;
+}
+
+button:focus {
+    outline: 1px solid #eee9e9;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+.monitor {
+	width: 42vw;
+}
+
+.memory {
+	background-color: var(--bg-box);
+	border-radius: 15px;
+}
+
+.memory-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.memory-item {
+	min-width: 5ch;
+	height: max-content;
+	font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
+	border: 1px solid var(--bg-box);
+}
+
+.mem-reg-container {
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+}
+
+.registers {
+	background-color: rgba(40, 42, 44, 0.927);
+	border-radius: 1px;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
+}
+
+.register {
+	text-align: start;
+	border: 1px solid var(--bg-box);
+}
+
+.output-box {
+	background-color: rgba(40, 42, 44, 0.927);
+	border-radius: 15px;
+	min-height: 10vh;
+	width: 100%;
+}
+
+.output-box > h2 {
+	margin-bottom: 1px;
+}
+
+.output-box > p {
+	margin-top: 1px;
+}
+
+.forms {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	justify-content: center;
+}
+
+.input-form {
+	margin-bottom: .6rem;
+}
+
+label {
+	display: inline-block;
+	text-align: right;
+}
+
+.error-output {
+	color: rgb(252, 109, 93);
+}
+
+.green-border {
+	border: 1px solid green;
+}
+
+.red-border {
+	border: 1px solid rgb(224, 35, 35);
+}
+
+.yellow-border {
+	border: 1px solid rgb(236, 177, 12);
+}
